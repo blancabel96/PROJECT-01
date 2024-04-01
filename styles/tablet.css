@@ -1,0 +1,62 @@
+/*TABLETS*/
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 80%;
+  }
+
+  /*---HEADER---*/
+
+  .branding {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .logo {
+    width: 50px;
+    height: 50px;
+
+    border-radius: 50%;
+
+    -webkit-box-shadow: -2px 7px 31px 0px rgba(66, 68, 90, 1);
+    -moz-box-shadow: -2px 7px 31px 0px rgba(66, 68, 90, 1);
+    box-shadow: -2px 7px 31px 0px rgba(66, 68, 90, 1);
+  }
+  .nav-links {
+    display: flex;
+    gap: 16px;
+  }
+  .nav-item {
+    font-size: 20;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .disabled-nav-item {
+    color: darkgray;
+    cursor: not-allowed;
+  }
+
+  /*---LANDING SECTION---*/
+
+  .landing-heading {
+    width: 460px;
+  }
+
+  /*---SERVICE---*/
+
+  .services-grid {
+    grid-template-columns: 200px 200px;
+  }
+
+  /*---FOOTERs---*/
+
+  .footer-content {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
