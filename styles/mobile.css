@@ -1,0 +1,31 @@
+/*MOBILE*/
+
+@media (max-width: 600px) {
+  .specialist-list {
+    gap: 30px;
+  }
+
+  .specialist-list-item {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .specialist-list-item:nth-of-type(even) {
+    flex-direction: column;
+  }
+
+  .specialist-image {
+    width: 150px;
+    height: 150px;
+  }
+
+  .specialist-details {
+    align-items: center;
+  }
+
+  .specialist-name,
+  .specialist-description {
+    text-align: center;
+  }
+}

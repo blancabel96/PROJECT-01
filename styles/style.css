@@ -150,21 +150,22 @@ body {
   gap: 50px;
 }
 
-.speacialist-list-item {
+.specialist-list-item {
   display: flex;
   align-items: center;
   gap: 60px;
 }
 
-.speacialist-list-item:nth-of-type(even) {
+.specialist-list-item:nth-of-type(even) {
   flex-direction: row-reverse;
 }
 
-.speacialist-image {
-  width: 197px;
-  height: 197px;
+.specialist-image {
+  width: 160px;
+  height: 160px;
   border-radius: 50%;
   object-fit: cover;
+  background-color: #c4c4c4;
 }
 
 .specialist-details {
@@ -186,7 +187,8 @@ body {
   text-align: left;
 }
 
-.specialist-description:nth-of-type(even) {
+.specialist-list-item:nth-of-type(even) .specialist-name,
+.specialist-list-item:nth-of-type(even) .specialist-description {
   text-align: right;
 }
 
