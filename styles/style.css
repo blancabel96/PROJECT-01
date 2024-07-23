@@ -132,12 +132,12 @@ body {
   text-decoration: none;
   cursor: pointer;
   display: inline-block;
+  transition: background-color 1s, color 1s;
 }
 
 .landing-button:hover {
   background-color: #ffff;
   color: black;
-  transition-duration: 1s;
 }
 
 /*SPECIALIST*/
